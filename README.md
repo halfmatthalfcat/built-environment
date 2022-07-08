@@ -17,5 +17,6 @@ To run locally:
 
 * Saved progress (options, location, theme, etc) in `localStorage`.
 * Loaded objects (`.obj` files) saved in `IndexedDB` and their location saved in state.
+* TODO: Display loaded `.obj` on map (with ability to move them around)
 * TODO: Add pinning/weather integration.
 * TODO: Fix layering with extrusion/satellite (a bit buggy)
