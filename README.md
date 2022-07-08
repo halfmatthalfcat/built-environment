@@ -1,6 +1,6 @@
 # built-environment
 
-A Typescript/Next/Mapbox/Three.js project to play around with the built environment.
+A Typescript/Next/Semantic-UI/Mapbox/Three.js project to play around with the built environment.
 
 ## Prerequisites
 
@@ -13,3 +13,9 @@ To run locally:
 1. `yarn`
 2. `NEXT_PUBLIC_MAPBOX_GL_ACCESS_TOKEN=... yarn dev`
  
+## Features
+
+* Saved progress (options, location, theme, etc) in `localStorage`.
+* Loaded objects (`.obj` files) saved in `IndexedDB` and their location saved in state.
+* TODO: Add pinning/weather integration.
+* TODO: Fix layering with extrusion/satellite (a bit buggy)
